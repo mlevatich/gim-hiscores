@@ -9,7 +9,7 @@ Features:
 - Filter ranking to only hardcore groups
 - Cache a copy of hiscores locally
 
-Example: Ranking Theatre of Blood completions by prestiged duo group ironmen
+Example: Ranking Theatre of Blood completions by prestiged duo group ironmen in the top 25 pages.
 ```
 # As of 12/31/24
 > python gim_hiscores.py 25 "Theatre of Blood" -size 2 -prestige
