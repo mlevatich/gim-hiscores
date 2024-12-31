@@ -6,8 +6,6 @@ import json
 import sys
 import os
 
-# TODO: test: hardcore, size 5, different bosses
-
 # Filenames for storing local copies of hiscores
 cache_files = [
     "local_hs_2.json",
