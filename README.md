@@ -49,7 +49,8 @@ This can add up to thousands of requests, which is a) very slow and b) results i
 # Installation
 
 ```
-git clone
+# you need python and git
+git clone git@github.com:mlevatich/gim-hiscores.git
 cd gim-hiscores
 pip install beautifulsoup4
 pip install curl-cffi --upgrade
