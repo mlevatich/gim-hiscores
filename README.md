@@ -2,6 +2,8 @@
 
 This is a Python script to scrape the Old School Runescape Group Ironman hiscores, in order to generate custom boss hiscores that the OSRS website does not provide.
 
+NOTE: These hiscores are also not available on Temple OSRS, as Temple OSRS requires groups to **opt-in** on their website to be tracked, meaning most groups are excluded in practice.
+
 Features:
 - Rank group ironmen groups by boss killcounts!
 - Filter ranking to a certain group size
