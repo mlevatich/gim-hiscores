@@ -44,7 +44,6 @@ This can add up to thousands of requests, which is a) very slow and b) results i
 - Web requests are multi-threaded with a default pool size of 20 for speed.
 - A local cache of the hiscores is built as the tool runs, so that when your IP address is inevitably blocked, you can resume later by reading from the cache (over time, the cache will become out-of-date as the hiscores change, and should be deleted).
 - BeautifulSoup is used to parse the raw html output.
-- Some amount of browser impersonation is used via `curl_cffi`, though whether this has any effect is debateable.
 
 # Installation
 
@@ -53,7 +52,6 @@ This can add up to thousands of requests, which is a) very slow and b) results i
 git clone git@github.com:mlevatich/gim-hiscores.git
 cd gim-hiscores
 pip install beautifulsoup4
-pip install curl-cffi --upgrade
 ```
 
 # Usage guide

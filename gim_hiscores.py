@@ -1,6 +1,6 @@
 import argparse
 from bs4 import BeautifulSoup
-from curl_cffi import requests
+import requests
 from multiprocessing import Pool
 import json
 import sys
@@ -47,7 +47,7 @@ def parse_args():
 # (response may be an IP block or connection error)
 def request(url, params=None):
     try:
-        r = requests.get(url, impersonate='chrome', params=params)
+        r = requests.get(url, params=params)
         print("*", end='') # indicates progress
         sys.stdout.flush()
         return r.text
